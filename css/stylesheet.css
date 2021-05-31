@@ -279,6 +279,11 @@ nav{
     padding: 2rem;
 }
 
+.s4 .card:hover{
+ 
+    box-shadow: 0 10px 30px 0 rgba(0,0,0,0.2);
+
+}
 
 
 
@@ -314,10 +319,15 @@ nav{
     position: relative;
    overflow: hidden;
 }
-
+.footer img{
+   z-index: -2;
+}
+.footer .container{
+    z-index: 20;
+}
 .footer-pattern{
     position:absolute;
-    width: 70rem;
+    width: 60rem;
     right:0;
     bottom:0;
     left: 0;
@@ -340,7 +350,14 @@ nav{
     font-size: x-small;
     font-weight: 400;
 }
+.footer .brand-logos a{
+    text-decoration:none;
+    color:#fff
+}
+.footer .brand-logos a:hover{
 
+    color:black;
+}
 .btn-footer{
     color:#fff;
     background-color: rgb(78, 43, 231);

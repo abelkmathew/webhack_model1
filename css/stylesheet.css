@@ -50,17 +50,17 @@ nav{
 .menu-button{
     position: absolute;
     right:0;
+    top:0;
     width:70px;
     height:70px;
     border-radius: 0 0 0 20px;
+    background:rgb(78, 43, 231);
+    z-index: 20;
     display: flex;
     align-items: center;
     justify-content: center;
-    background:rgb(78, 43, 231);
 }
-.menu-button img{
-    width: fit-content;
-}
+
 .menu-button:hover{
     background:rgb(111, 56, 156);
 
@@ -310,12 +310,12 @@ nav{
     min-height: 35vh;
     padding-top: 5rem;
     color:rgb(192, 190, 190);
-
-   
+    position: relative;
+   overflow: hidden;
 }
 
 .footer-pattern{
-
+    position:absolute;
     width: 70rem;
     right:0;
     bottom:0;

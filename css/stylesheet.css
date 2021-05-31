@@ -15,7 +15,7 @@ body{
 
 
 .navbar-hero-wrapper{
-    background-image: url("/assets/BG-Home.png");
+    background-image: url("../assets/BG-Home.png");
     border-radius: 0 0 5rem 5rem;  
 }
 

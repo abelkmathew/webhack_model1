@@ -59,6 +59,14 @@ margin-top: 1rem;
 .s3 {
   min-height: 100vh;
 }
+.modal-content{
+  border-radius: 4rem 0 4rem 4rem;
+  min-height: 60vh;
+  width: 100%;
+  min-width: 50vh;
+  background-color:#f4f4ff ;
+
+}
  }
 
 /*  Large devices (desktops, less than 1200px) */
@@ -73,7 +81,7 @@ margin-top: 1rem;
   border-radius: 4rem 0 4rem 4rem;
   min-height: 70vh;
   width: 100%;
-  min-width: 70vh;
+  min-width: 60vh;
   background-color:#f4f4ff ;
 
 }
@@ -94,5 +102,16 @@ margin-top: 1rem;
 
 }
 
-/* XX-Large devices (larger desktops)
-No media query since the xxl breakpoint has no upper bound on its width */
+/* XX-Large devices (larger desktops) */
+@media (max-width: 1800px) {
+
+.modal-content{
+  border-radius: 4rem 0 4rem 4rem;
+  min-height: 70vh;
+  width: 100%;
+  min-width: 70vh;
+  background-color:#f4f4ff ;
+
+}
+
+}

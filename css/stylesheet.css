@@ -57,11 +57,12 @@ nav{
     align-items: center;
     justify-content: center;
     background:rgb(78, 43, 231);
-
 }
-
+.menu-button img{
+    width: fit-content;
+}
 .menu-button:hover{
-    background:rgb(188, 129, 236);
+    background:rgb(111, 56, 156);
 
 }
 
@@ -297,7 +298,11 @@ nav{
     color:#81818127
 }
 
-
+.people{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /************************* Footer ***************************/
 .footer{
@@ -305,21 +310,17 @@ nav{
     min-height: 35vh;
     padding-top: 5rem;
     color:rgb(192, 190, 190);
-    position: relative;
-    overflow: hidden;
 
    
 }
 
 .footer-pattern{
-    position:absolute;
+
     width: 70rem;
     right:0;
     bottom:0;
     left: 0;
     opacity: 0.05;
-
-
 }
 .logo-bottom{
     font-size: large;

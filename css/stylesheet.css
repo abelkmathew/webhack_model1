@@ -1,0 +1,361 @@
+/************************* GENERAL ****************************/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Poppins', sans-serif;  
+    background-color: #fff;
+}
+.site-section{
+    min-height:80vh;   
+    padding-top: 10rem;
+}
+
+
+
+.navbar-hero-wrapper{
+    background-image: url("/assets/BG-Home.png");
+    border-radius: 0 0 5rem 5rem;  
+}
+
+.section-title{
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/****************** Navigation ***************************/
+nav{
+    min-height:8vh;
+    background-color: transparent; 
+
+}
+.logo-top{
+    margin-left: 5rem;
+    margin-top: 1rem;
+    font-size: large;
+}
+.logo-top span{
+    font-weight: 600;   
+}
+
+
+/*************************** MENU  *****************************/
+.menu-button{
+    position: absolute;
+    right:0;
+    width:70px;
+    height:70px;
+    border-radius: 0 0 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgb(78, 43, 231);
+
+}
+
+.menu-button:hover{
+    background:rgb(188, 129, 236);
+
+}
+
+
+
+.modal-content{
+   border-radius: 4rem 0 4rem 4rem;
+   min-height: 70vh;
+   width: 100%;
+   min-width: 90vh;
+   background-color:#f4f4ff ;
+
+}
+.modal .btn-close{
+    background-color: rgb(240, 240, 240) !important;
+    color: rgb(243, 243, 243);
+    opacity: 1 !important;
+}
+.modal .btn-close:hover{
+    background-color:  rgb(73, 12, 240) !important;
+    color: #fff;
+    opacity: 1 !important;
+}
+
+
+.modal-footer{
+    background-color: #fff;
+    border-radius: 0 0 4rem 4rem;
+ }
+.modal-footer{
+    display: flex;
+    flex-flow: column;
+    padding-left: 40px;
+    align-items: flex-start;
+}
+.modal-footer a{
+    padding-right: 1rem;
+    text-decoration:none;
+    color:rgb(151, 148, 148)
+}
+
+.modal-body{
+    text-transform: capitalize;
+}
+.text-dec:hover{
+    color: rgb(64, 28, 226);
+}
+.modal-footer a:hover, .modal-footer i:hover{
+    color: rgb(64, 28, 226);
+}
+
+/************************ Hero *****************************/
+
+.hero .author-name{
+    font-weight: 500;
+}
+
+.hero .hero-btn{
+    background:rgb(78, 43, 231);
+    border-radius: 10rem 0rem 10rem 10rem ;
+    color:#fff;
+    padding:8px 25px;
+    font-size: small;
+}
+.hero .hero-btn i{
+    padding-left:10px ;
+    padding-right: 10px;
+}
+.hero-btn:hover{
+    color:rgb(78, 43, 231);
+    background-color:#fff ;
+}
+.hero .section-title h1,.hero .section-title h2{
+    text-transform: uppercase;
+}
+
+
+
+
+/*********************** Section-2 **************************/
+
+.s2 .card{
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-left-color:  rgb(78, 43, 231);
+    padding: 2rem;
+    min-height:35vh;
+}
+.s2 .card-title{
+    text-transform:uppercase;
+    min-height:10vh;
+}
+.cardhead{
+    border:solid blue;
+    display: inline;
+    padding-top: 0.5rem;
+    padding-left: 2.2rem;
+    padding-right:2.2rem ;
+    color: #fff;
+    background-color: rgb(78, 43, 231);
+    border-radius: 0 1.5rem 0 0;
+    text-transform:uppercase;
+
+}
+.card-course-hover{
+    display: none;
+}
+.s2 .card:hover .card-text{
+    display:none
+}
+
+.s2 .card:hover .card-course-hover{
+    display: initial;
+}
+
+.s2 .card:hover{
+  background-color: rgba(70, 41, 199, 0.822);
+}
+
+.btn-course{
+    background-color: rgb(245, 243, 243);
+    border-radius: 2rem;
+    color:rgb(114, 21, 190)
+}
+.btn-course:hover{
+    background-color: rgb(106, 18, 207);
+    color:rgb(240, 235, 243)
+}
+.s2 .card:hover{
+    color:#fff;
+}
+
+/*********************** Section-3 **************************/
+.s3{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.bg{
+    background-color:  #f4f4ff;
+    position: absolute;
+    right: 0;
+    border-radius: 5rem 0 0 0 ;
+
+}
+.abt-btn{
+    color:rgb(78, 43, 231);
+    background-color: #fff;
+    border-radius: 10rem 0rem 10rem 10rem ;
+    padding:8px 25px;
+    font-size: small;
+}
+
+.abt-btn:hover{
+    color:#fff;
+    background-color:rgb(78, 43, 231) ;
+}
+
+.s3 .abt-btn i{
+    padding-left:10px ;
+    padding-right: 10px;
+}
+
+.s3 span{
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+/*********************** Section-4 ***************************/
+.s4-title-nonbold{
+    font-size:x-large;
+    text-transform: uppercase;
+    color:rgb(94, 92, 92)
+    
+}
+.s4-title-nonbold span{
+    font-weight: 500;
+    color: black;
+    
+}
+
+.section-title h3{
+    text-transform: uppercase;
+}
+.s4 i{
+    font-size:70px;
+ }
+
+.s4-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(78, 43, 231);
+}
+.s4 .card-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s4 .card-text{
+    color:rgb(133, 128, 128);
+    font-size: small;
+}
+.s4 .card{
+    border-radius: 2rem 2rem 0rem 2rem ;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+
+/*********************** Section-5 ***************************/
+
+.s5{
+    color: black !important;
+}
+.bg-s5 .row{
+    min-height:40vh ;
+}
+.bg-s5 .col-md-8{
+  background-color: #f4f4ff;
+}
+.pattern-s5{
+    font-size: 60px;
+    padding-left: 7rem;
+    color:#81818127
+}
+
+
+
+/************************* Footer ***************************/
+.footer{
+    background-color: #3d4e60;
+    min-height: 35vh;
+    padding-top: 5rem;
+    color:rgb(192, 190, 190);
+    position: relative;
+    overflow: hidden;
+
+   
+}
+
+.footer-pattern{
+    position:absolute;
+    width: 70rem;
+    right:0;
+    bottom:0;
+    left: 0;
+    opacity: 0.05;
+
+
+}
+.logo-bottom{
+    font-size: large;
+}
+.logo-bottom span{
+    font-weight: 600;   
+}
+.footer .brand-logos ,.footer span{
+    color:#fff;
+}
+.brand-logos .fab{
+    margin-right: 1rem;
+}
+.copyright{
+    margin-top: 1rem;
+    font-size: x-small;
+    font-weight: 400;
+}
+
+.btn-footer{
+    color:#fff;
+    background-color: rgb(78, 43, 231);
+    border-radius: 10rem 0rem 10rem 10rem ;
+    padding:8px 25px;
+    font-size: small;
+}
+
+.btn-footer:hover{
+    color:rgb(78, 43, 231);
+    background-color:#fff ;
+}
+
+.footer input{
+    background: none;
+    border:none;
+    border-bottom: 1px solid  rgb(192, 190, 190);
+    width:max-content;
+    margin-right: 50px;
+}
